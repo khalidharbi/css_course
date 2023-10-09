@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background image */
+body {
+    background-image: url('logo.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Style header */
+header {
+    background-color: rgb(3, 56, 56);
+    color: #fafafa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style main content */
+main {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #000000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+/* Style footer */
+footer {
+    background-color: #099;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
